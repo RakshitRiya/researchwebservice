@@ -52,9 +52,6 @@ class App extends Component {
 
 
   render() {
-    console.log( `error` + this.state.error);
-    console.log(this.state.totalhits);
-    console.log(this.state.SearchResult);
     if (this.state.totalhits === 0) {
       return(
         <div>
